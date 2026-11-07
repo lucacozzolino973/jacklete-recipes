@@ -1,0 +1,35 @@
+JACKLETE — PUBBLICAZIONE DELLE RICETTE PER CRONOMETER GOLD
+================================================================
+
+IL PACCHETTO NON È GIÀ ONLINE.
+Questo ZIP contiene un sito statico pronto da pubblicare. Non è ancora un URL pubblico.
+
+PROCEDURA RAPIDA: NETLIFY DROP
+1. Vai su https://app.netlify.com/drop
+2. Trascina il file ZIP JACKLETE_Cronometer_Sito_Pubblicabile.zip nell'area Drop,
+   oppure seleziona il file con 'choose a file'.
+3. Netlify crea il sito e mostra il suo URL pubblico https://...netlify.app
+4. Apri il sito. Clicca la ricetta che vuoi importare, ad esempio M05.
+5. Copia l'indirizzo della SINGOLA RICETTA, non quello dell'index.
+6. In Cronometer Gold: Foods > Custom Recipes > Import Recipe > Paste URL > Import.
+7. Controlla ingredienti, grammi e dati nutrizionali e salva.
+
+Netlify può chiedere una registrazione per mantenere e gestire il sito.
+Non pubblicare dati sanitari o personali sul sito; qui sono presenti soltanto ricette.
+
+ALTERNATIVA: GITHUB PAGES
+1. Crea un repository (es. jacklete-recipes) su https://github.com/new
+2. Carica i file estratti dallo ZIP nella root del repository.
+3. Settings > Pages > Deploy from a branch > main / (root) > Save.
+4. L'URL sarà mostrato da GitHub nelle impostazioni Pages.
+
+STRUTTURA
+index.html           Indice di tutte le ricette
+ricette/*.html       44 pagine, una ricetta per URL
+assets/style.css     Stili
+.nojekyll            Per GitHub Pages
+robots.txt           Regola accesso crawler
+
+VALIDAZIONE
+Le pagine includono JSON-LD schema.org/Recipe e ingredienti visibili.
+Cronometer può comunque non riconoscere un ingrediente; verifica sempre prima di salvare.

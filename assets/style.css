@@ -1,1 +1,21 @@
-body{font:16px system-ui,sans-serif;max-width:850px;margin:auto;padding:24px;color:#20313c;line-height:1.55}a{color:#176e69}header{padding:15px;background:#eff8f6;border-radius:8px}h1{line-height:1.2}li{margin:7px 0}table{border-collapse:collapse}th,td{text-align:left;padding:8px 15px;border-bottom:1px solid #ddd}.warning{background:#fff8e7;padding:13px;border-radius:8px}article{border-bottom:1px solid #ddd;padding:10px 0}small{color:#687984}
+
+:root{color-scheme:light;--ink:#1d2933;--muted:#61707c;--border:#dce3e8;--surface:#f5f8fa;--accent:#176f6b}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,sans-serif;color:var(--ink);line-height:1.55;background:#fff}
+main{max-width:940px;margin:0 auto;padding:28px 20px 70px}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+.top{background:#f0f7f5;border-bottom:1px solid var(--border);padding:14px 20px}
+.top .in{max-width:940px;margin:auto;font-weight:750;letter-spacing:.01em}
+h1{font-size:clamp(1.65rem,3vw,2.35rem);line-height:1.16;margin:16px 0 10px}h2{font-size:1.22rem}
+.subtitle{color:var(--muted);max-width:680px}.crumb{font-size:.9rem;margin:12px 0 28px}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin:17px 0 20px}
+.chip{background:var(--surface);border:1px solid var(--border);border-radius:100px;padding:4px 10px;font-size:.82rem}
+.card{padding:18px;border:1px solid var(--border);border-radius:12px;margin:12px 0}
+.card h3{margin:0 0 7px;font-size:1.06rem}
+.card .desc{color:var(--muted);font-size:.9rem;margin:0}
+ul.ingredients{padding-left:1.25rem}ul.ingredients li{padding:4px 0}
+.info{background:#fff8e9;border:1px solid #eed9a6;border-radius:12px;padding:13px 16px;font-size:.93rem}
+table{border-collapse:collapse;width:100%;margin:18px 0}th,td{text-align:left;padding:9px;border-bottom:1px solid var(--border)}
+th{background:var(--surface);font-size:.9rem}.num{text-align:right;font-variant-numeric:tabular-nums}
+#search{width:100%;border:1px solid var(--border);border-radius:10px;padding:13px;font:inherit;margin:18px 0}
+footer{margin-top:38px;color:var(--muted);font-size:.82rem}
+@media(max-width:600px){.card{padding:13px}main{padding:20px 14px}}
