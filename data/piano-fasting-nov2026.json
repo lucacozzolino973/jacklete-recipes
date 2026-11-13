@@ -1173,6 +1173,86 @@
         "c": 110.6,
         "f": 29.3
       }
+    },
+    {
+      "id": "sn08",
+      "name": "Mini coppa skyr e mirtilli",
+      "day": "TUTTI",
+      "category": "Snack piccolo",
+      "ingredients": [
+        {
+          "food": "skyr",
+          "g": 120
+        },
+        {
+          "food": "mirtilli",
+          "g": 65
+        },
+        {
+          "food": "cacao",
+          "g": 4
+        }
+      ],
+      "instructions": "Mescola lo skyr con cacao e mirtilli.",
+      "note": "Ideale come secondo snack leggero.",
+      "nutrition": {
+        "kcal": 126,
+        "p": 14.5,
+        "c": 15,
+        "f": 0.9
+      }
+    },
+    {
+      "id": "sn09",
+      "name": "Fragole con fondente e yogurt",
+      "day": "TUTTI",
+      "category": "Snack piccolo",
+      "ingredients": [
+        {
+          "food": "fragole",
+          "g": 160
+        },
+        {
+          "food": "cioccolato",
+          "g": 17
+        },
+        {
+          "food": "greco",
+          "g": 70
+        }
+      ],
+      "instructions": "Intingi le fragole nel cioccolato fuso e aggiungi yogurt 0%.",
+      "note": "Piccolo dessert da fare prima della chiusura della finestra alimentare.",
+      "nutrition": {
+        "kcal": 200,
+        "p": 9.5,
+        "c": 22.8,
+        "f": 7.9
+      }
+    },
+    {
+      "id": "sn10",
+      "name": "Mela con mandorle e cannella",
+      "day": "TUTTI",
+      "category": "Snack piccolo",
+      "ingredients": [
+        {
+          "food": "mela",
+          "g": 150
+        },
+        {
+          "food": "mandorle",
+          "g": 13
+        }
+      ],
+      "instructions": "Taglia la mela a spicchi e servila con mandorle e cannella.",
+      "note": "Snack comodo in trasferta; la cannella non cambia i macro in modo rilevante.",
+      "nutrition": {
+        "kcal": 168,
+        "p": 3.2,
+        "c": 23.6,
+        "f": 6.8
+      }
     }
   ]
 }
