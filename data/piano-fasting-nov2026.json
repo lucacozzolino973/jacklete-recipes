@@ -1,0 +1,1178 @@
+{
+  "version": "2026-11-13",
+  "title": "Jacklete | Digiuno cena-pranzo",
+  "targets": {
+    "ON": {
+      "kcal": 2050,
+      "p": 125,
+      "c": 241,
+      "f": 65
+    },
+    "OFF": {
+      "kcal": 1950,
+      "p": 125,
+      "c": 216,
+      "f": 65
+    }
+  },
+  "notes": [
+    "Valori stimati con composizione genericamente rappresentativa per 100 g; non derivano da scansioni delle etichette spagnole.",
+    "Pesi di riso, pasta, quinoa e couscous a secco; carni e pesce a crudo; ceci e piselli cotti e sgocciolati.",
+    "Il calcolo energetico usa 4 kcal/g proteine e carboidrati e 9 kcal/g grassi; etichette e fibre possono produrre differenze.",
+    "Il protocollo alimentare non sostituisce valutazione clinica della sicurezza del digiuno prolungato con dapagliflozin."
+  ],
+  "foods": {
+    "pollo": {
+      "it": "petto di pollo, crudo",
+      "en": "raw skinless chicken breast",
+      "p": 23,
+      "c": 0,
+      "f": 1.6
+    },
+    "tacchino": {
+      "it": "petto di tacchino, crudo",
+      "en": "raw skinless turkey breast",
+      "p": 23,
+      "c": 0,
+      "f": 1.2
+    },
+    "tonno": {
+      "it": "tonno al naturale, peso sgocciolato",
+      "en": "canned tuna in water, drained",
+      "p": 25,
+      "c": 0,
+      "f": 1
+    },
+    "salmone": {
+      "it": "filetto di salmone, crudo",
+      "en": "raw Atlantic salmon",
+      "p": 20,
+      "c": 0,
+      "f": 13
+    },
+    "orata": {
+      "it": "filetto di orata, crudo",
+      "en": "raw sea bream fillet",
+      "p": 20,
+      "c": 0,
+      "f": 3
+    },
+    "tofu": {
+      "it": "tofu naturale, sgocciolato",
+      "en": "firm tofu",
+      "p": 12,
+      "c": 2,
+      "f": 6
+    },
+    "uova": {
+      "it": "uova intere, senza guscio",
+      "en": "whole raw eggs",
+      "p": 12.6,
+      "c": 0.7,
+      "f": 10.6
+    },
+    "albumi": {
+      "it": "albume pastorizzato",
+      "en": "liquid egg whites",
+      "p": 10.9,
+      "c": 0.7,
+      "f": 0.2
+    },
+    "skyr": {
+      "it": "skyr bianco naturale, 0% grassi",
+      "en": "plain nonfat skyr",
+      "p": 11,
+      "c": 4,
+      "f": 0.2
+    },
+    "greco": {
+      "it": "yogurt greco naturale 0% grassi",
+      "en": "plain nonfat Greek yogurt",
+      "p": 10,
+      "c": 4,
+      "f": 0.2
+    },
+    "ricotta": {
+      "it": "ricotta vaccina",
+      "en": "whole milk ricotta cheese",
+      "p": 11,
+      "c": 4,
+      "f": 11
+    },
+    "cottage": {
+      "it": "fiocchi di latte",
+      "en": "cottage cheese",
+      "p": 12,
+      "c": 3,
+      "f": 4
+    },
+    "parmi": {
+      "it": "parmigiano grattugiato",
+      "en": "grated Parmesan cheese",
+      "p": 35,
+      "c": 4,
+      "f": 28
+    },
+    "riso": {
+      "it": "riso basmati, PESO A CRUDO",
+      "en": "dry basmati rice",
+      "p": 7.5,
+      "c": 78,
+      "f": 0.9
+    },
+    "pasta": {
+      "it": "pasta integrale, PESO A CRUDO",
+      "en": "dry whole wheat pasta",
+      "p": 13,
+      "c": 68,
+      "f": 2.2
+    },
+    "quinoa": {
+      "it": "quinoa, PESO A CRUDO",
+      "en": "dry quinoa",
+      "p": 14,
+      "c": 64,
+      "f": 6
+    },
+    "couscous": {
+      "it": "couscous, PESO A CRUDO",
+      "en": "dry couscous",
+      "p": 12,
+      "c": 73,
+      "f": 0.6
+    },
+    "pane": {
+      "it": "pane integrale",
+      "en": "whole wheat bread",
+      "p": 9,
+      "c": 43,
+      "f": 3.5
+    },
+    "tortilla": {
+      "it": "tortilla di frumento (tipo generico)",
+      "en": "wheat flour tortilla",
+      "p": 8,
+      "c": 50,
+      "f": 8
+    },
+    "patate": {
+      "it": "patate, peso sbucciato a crudo",
+      "en": "raw peeled potatoes",
+      "p": 2,
+      "c": 17,
+      "f": 0.1
+    },
+    "piselli": {
+      "it": "piselli già cotti, sgocciolati",
+      "en": "cooked green peas",
+      "p": 5.4,
+      "c": 14,
+      "f": 0.4
+    },
+    "ceci": {
+      "it": "ceci già cotti, sgocciolati",
+      "en": "cooked chickpeas, drained",
+      "p": 8.9,
+      "c": 27.4,
+      "f": 2.6
+    },
+    "pomodori": {
+      "it": "pomodori freschi",
+      "en": "fresh tomatoes",
+      "p": 0.9,
+      "c": 3.9,
+      "f": 0.2
+    },
+    "broccoli": {
+      "it": "broccoli freschi",
+      "en": "raw broccoli",
+      "p": 2.8,
+      "c": 7,
+      "f": 0.4
+    },
+    "spinaci": {
+      "it": "spinaci freschi",
+      "en": "raw spinach",
+      "p": 2.9,
+      "c": 3.6,
+      "f": 0.4
+    },
+    "zucchine": {
+      "it": "zucchine",
+      "en": "raw zucchini",
+      "p": 1.2,
+      "c": 3.1,
+      "f": 0.3
+    },
+    "peperoni": {
+      "it": "peperoni",
+      "en": "raw sweet peppers",
+      "p": 1,
+      "c": 6,
+      "f": 0.3
+    },
+    "avocado": {
+      "it": "avocado, sola polpa",
+      "en": "avocado flesh",
+      "p": 2,
+      "c": 8.5,
+      "f": 14.7
+    },
+    "mela": {
+      "it": "mela, senza torsolo",
+      "en": "raw apple",
+      "p": 0.3,
+      "c": 13.8,
+      "f": 0.2
+    },
+    "banana": {
+      "it": "banana, senza buccia",
+      "en": "raw banana",
+      "p": 1.1,
+      "c": 22.8,
+      "f": 0.3
+    },
+    "fragole": {
+      "it": "fragole",
+      "en": "fresh strawberries",
+      "p": 0.7,
+      "c": 7.7,
+      "f": 0.3
+    },
+    "mirtilli": {
+      "it": "mirtilli",
+      "en": "fresh blueberries",
+      "p": 0.7,
+      "c": 14.5,
+      "f": 0.3
+    },
+    "pera": {
+      "it": "pera",
+      "en": "raw pear",
+      "p": 0.4,
+      "c": 15,
+      "f": 0.1
+    },
+    "avena": {
+      "it": "fiocchi di avena, PESO A CRUDO",
+      "en": "dry rolled oats",
+      "p": 13.2,
+      "c": 67.7,
+      "f": 6.5
+    },
+    "farina_riso": {
+      "it": "farina di riso",
+      "en": "rice flour",
+      "p": 6,
+      "c": 80,
+      "f": 1.4
+    },
+    "arachidi": {
+      "it": "crema 100% arachidi",
+      "en": "unsweetened peanut butter",
+      "p": 26,
+      "c": 20,
+      "f": 50
+    },
+    "noci": {
+      "it": "noci sgusciate",
+      "en": "walnuts",
+      "p": 15,
+      "c": 14,
+      "f": 65
+    },
+    "mandorle": {
+      "it": "mandorle",
+      "en": "almonds",
+      "p": 21,
+      "c": 22,
+      "f": 50
+    },
+    "cioccolato": {
+      "it": "cioccolato fondente 70%",
+      "en": "dark chocolate 70%",
+      "p": 8,
+      "c": 45,
+      "f": 43
+    },
+    "cacao": {
+      "it": "cacao amaro in polvere",
+      "en": "unsweetened cocoa powder",
+      "p": 20,
+      "c": 20,
+      "f": 11
+    },
+    "miele": {
+      "it": "miele",
+      "en": "honey",
+      "p": 0.3,
+      "c": 82,
+      "f": 0
+    },
+    "latte": {
+      "it": "latte parzialmente scremato",
+      "en": "semi skimmed milk",
+      "p": 3.5,
+      "c": 4.9,
+      "f": 1.6
+    },
+    "whey": {
+      "it": "proteine del siero, polvere (valori generici)",
+      "en": "whey protein powder",
+      "p": 80,
+      "c": 7,
+      "f": 6
+    },
+    "evo": {
+      "it": "olio extravergine di oliva",
+      "en": "extra virgin olive oil",
+      "p": 0,
+      "c": 0,
+      "f": 100
+    },
+    "chia": {
+      "it": "semi di chia",
+      "en": "chia seeds",
+      "p": 16.5,
+      "c": 7.7,
+      "f": 30.7
+    },
+    "fette": {
+      "it": "fette biscottate integrali",
+      "en": "whole wheat crisp toast",
+      "p": 11,
+      "c": 70,
+      "f": 6
+    }
+  },
+  "recipes": [
+    {
+      "id": "on01",
+      "name": "Bowl di pollo, basmati e piselli",
+      "day": "ON",
+      "category": "Pranzo salato",
+      "ingredients": [
+        {
+          "food": "pollo",
+          "g": 170
+        },
+        {
+          "food": "riso",
+          "g": 100
+        },
+        {
+          "food": "piselli",
+          "g": 150
+        },
+        {
+          "food": "zucchine",
+          "g": 150
+        },
+        {
+          "food": "evo",
+          "g": 15
+        }
+      ],
+      "instructions": "Cuoci il riso. Salta pollo e zucchine con parte dell’olio; unisci i piselli già cotti. Completa con l’olio restante a crudo.",
+      "note": "Ottimo da preparare in anticipo; conserva il riso raffreddandolo rapidamente.",
+      "nutrition": {
+        "kcal": 818,
+        "p": 56.5,
+        "c": 103.7,
+        "f": 19.7
+      }
+    },
+    {
+      "id": "on02",
+      "name": "Tortilla di tacchino, uova e avocado",
+      "day": "ON",
+      "category": "Pranzo salato",
+      "ingredients": [
+        {
+          "food": "tortilla",
+          "g": 110
+        },
+        {
+          "food": "tacchino",
+          "g": 170
+        },
+        {
+          "food": "uova",
+          "g": 60
+        },
+        {
+          "food": "avocado",
+          "g": 50
+        },
+        {
+          "food": "pomodori",
+          "g": 180
+        },
+        {
+          "food": "skyr",
+          "g": 80
+        }
+      ],
+      "instructions": "Cuoci il tacchino e l’uovo; farcisci la tortilla con pomodori, avocado e salsa allo skyr.",
+      "note": "Controlla l’etichetta della tortilla acquistata: la composizione varia molto.",
+      "nutrition": {
+        "kcal": 773,
+        "p": 66.9,
+        "c": 69.9,
+        "f": 25.1
+      }
+    },
+    {
+      "id": "on03",
+      "name": "Pasta integrale con tonno, pomodorini e spinaci",
+      "day": "ON",
+      "category": "Pranzo salato",
+      "ingredients": [
+        {
+          "food": "pasta",
+          "g": 115
+        },
+        {
+          "food": "tonno",
+          "g": 150
+        },
+        {
+          "food": "pomodori",
+          "g": 200
+        },
+        {
+          "food": "spinaci",
+          "g": 100
+        },
+        {
+          "food": "parmi",
+          "g": 15
+        },
+        {
+          "food": "evo",
+          "g": 16
+        }
+      ],
+      "instructions": "Cuoci la pasta al dente; salta pomodori e spinaci. A fuoco spento aggiungi tonno sgocciolato, parmigiano e olio.",
+      "note": "Pasta pesata secca e tonno sgocciolato.",
+      "nutrition": {
+        "kcal": 836,
+        "p": 62.4,
+        "c": 90.2,
+        "f": 25
+      }
+    },
+    {
+      "id": "on04",
+      "name": "Couscous di tacchino, ceci e peperoni",
+      "day": "ON",
+      "category": "Pranzo salato",
+      "ingredients": [
+        {
+          "food": "couscous",
+          "g": 95
+        },
+        {
+          "food": "tacchino",
+          "g": 150
+        },
+        {
+          "food": "ceci",
+          "g": 120
+        },
+        {
+          "food": "peperoni",
+          "g": 180
+        },
+        {
+          "food": "evo",
+          "g": 12
+        }
+      ],
+      "instructions": "Reidrata il couscous, cuoci tacchino e peperoni, unisci ceci scolati e condisci con l’olio.",
+      "note": "Couscous crudo; ceci già cotti e sgocciolati.",
+      "nutrition": {
+        "kcal": 848,
+        "p": 58.4,
+        "c": 113,
+        "f": 18
+      }
+    },
+    {
+      "id": "on05",
+      "name": "Salmone, patate, spinaci e salsa skyr",
+      "day": "ON",
+      "category": "Pranzo salato",
+      "ingredients": [
+        {
+          "food": "salmone",
+          "g": 170
+        },
+        {
+          "food": "patate",
+          "g": 390
+        },
+        {
+          "food": "spinaci",
+          "g": 180
+        },
+        {
+          "food": "skyr",
+          "g": 140
+        },
+        {
+          "food": "evo",
+          "g": 8
+        }
+      ],
+      "instructions": "Cuoci salmone e patate in forno; servi con spinaci e skyr condito con limone ed erbe.",
+      "note": "Patate pesate da crude senza buccia, salmone crudo.",
+      "nutrition": {
+        "kcal": 847,
+        "p": 62.4,
+        "c": 78.4,
+        "f": 31.5
+      }
+    },
+    {
+      "id": "on06",
+      "name": "Frittata, patate e pane con fiocchi di latte",
+      "day": "ON",
+      "category": "Pranzo salato",
+      "ingredients": [
+        {
+          "food": "uova",
+          "g": 110
+        },
+        {
+          "food": "albumi",
+          "g": 160
+        },
+        {
+          "food": "patate",
+          "g": 230
+        },
+        {
+          "food": "pane",
+          "g": 100
+        },
+        {
+          "food": "cottage",
+          "g": 120
+        },
+        {
+          "food": "pomodori",
+          "g": 150
+        },
+        {
+          "food": "evo",
+          "g": 8
+        }
+      ],
+      "instructions": "Cuoci patate e frittata con l’olio; servi con pane integrale, fiocchi di latte e pomodori.",
+      "note": "Le uova si pesano senza guscio.",
+      "nutrition": {
+        "kcal": 876,
+        "p": 60.7,
+        "c": 93.4,
+        "f": 28.8
+      }
+    },
+    {
+      "id": "off01",
+      "name": "Pancake d’avena, albume e frutti rossi",
+      "day": "OFF",
+      "category": "Pranzo dolce",
+      "ingredients": [
+        {
+          "food": "avena",
+          "g": 70
+        },
+        {
+          "food": "albumi",
+          "g": 150
+        },
+        {
+          "food": "skyr",
+          "g": 180
+        },
+        {
+          "food": "banana",
+          "g": 105
+        },
+        {
+          "food": "fragole",
+          "g": 140
+        },
+        {
+          "food": "arachidi",
+          "g": 15
+        }
+      ],
+      "instructions": "Frulla avena, albume e metà banana; cuoci pancake ben cotti. Completa con skyr, frutta e crema d’arachidi.",
+      "note": "Non serve aggiungere zucchero.",
+      "nutrition": {
+        "kcal": 700,
+        "p": 51.4,
+        "c": 93.4,
+        "f": 13.4
+      }
+    },
+    {
+      "id": "off02",
+      "name": "French toast integrale alla ricotta e fragole",
+      "day": "OFF",
+      "category": "Pranzo dolce",
+      "ingredients": [
+        {
+          "food": "pane",
+          "g": 135
+        },
+        {
+          "food": "uova",
+          "g": 55
+        },
+        {
+          "food": "albumi",
+          "g": 130
+        },
+        {
+          "food": "ricotta",
+          "g": 95
+        },
+        {
+          "food": "fragole",
+          "g": 160
+        },
+        {
+          "food": "miele",
+          "g": 18
+        }
+      ],
+      "instructions": "Immergi il pane in uovo e albume, cuocilo bene in padella antiaderente e servi con ricotta, fragole e miele.",
+      "note": "Ingredienti per una porzione abbondante, senza olio aggiunto.",
+      "nutrition": {
+        "kcal": 736,
+        "p": 44.9,
+        "c": 90.2,
+        "f": 21.7
+      }
+    },
+    {
+      "id": "off03",
+      "name": "Bowl greca banana, avena, mirtilli e cioccolato",
+      "day": "OFF",
+      "category": "Pranzo dolce",
+      "ingredients": [
+        {
+          "food": "greco",
+          "g": 270
+        },
+        {
+          "food": "avena",
+          "g": 60
+        },
+        {
+          "food": "banana",
+          "g": 115
+        },
+        {
+          "food": "mirtilli",
+          "g": 130
+        },
+        {
+          "food": "noci",
+          "g": 18
+        },
+        {
+          "food": "cioccolato",
+          "g": 12
+        }
+      ],
+      "instructions": "Mescola yogurt, avena e banana; completa con mirtilli, noci e cioccolato tritato.",
+      "note": "Usa yogurt greco 0%; con il 5% o 10% i grassi cambiano.",
+      "nutrition": {
+        "kcal": 779,
+        "p": 40.8,
+        "c": 104.4,
+        "f": 22
+      }
+    },
+    {
+      "id": "off04",
+      "name": "Tortilla di uova, spinaci e fiocchi di latte",
+      "day": "OFF",
+      "category": "Pranzo salato",
+      "ingredients": [
+        {
+          "food": "tortilla",
+          "g": 115
+        },
+        {
+          "food": "uova",
+          "g": 100
+        },
+        {
+          "food": "cottage",
+          "g": 170
+        },
+        {
+          "food": "spinaci",
+          "g": 150
+        },
+        {
+          "food": "evo",
+          "g": 6
+        },
+        {
+          "food": "mela",
+          "g": 150
+        }
+      ],
+      "instructions": "Cuoci uova e spinaci, riempi la tortilla con fiocchi di latte. Mangia la mela come frutta a fine pasto.",
+      "note": "La mela è inclusa nel calcolo della ricetta.",
+      "nutrition": {
+        "kcal": 847,
+        "p": 47,
+        "c": 89.4,
+        "f": 33.5
+      }
+    },
+    {
+      "id": "off05",
+      "name": "Toast integrale con pollo, ceci e pomodoro",
+      "day": "OFF",
+      "category": "Pranzo salato",
+      "ingredients": [
+        {
+          "food": "pane",
+          "g": 145
+        },
+        {
+          "food": "pollo",
+          "g": 135
+        },
+        {
+          "food": "ceci",
+          "g": 115
+        },
+        {
+          "food": "pomodori",
+          "g": 200
+        },
+        {
+          "food": "evo",
+          "g": 12
+        }
+      ],
+      "instructions": "Cuoci il pollo, schiaccia i ceci già cotti con limone e spezie; servi sul pane con pomodori e olio.",
+      "note": "Alternativa salata per giorni senza palestra.",
+      "nutrition": {
+        "kcal": 835,
+        "p": 56.1,
+        "c": 101.7,
+        "f": 22.6
+      }
+    },
+    {
+      "id": "sn01",
+      "name": "Coppa yogurt, fragole, miele e noci",
+      "day": "TUTTI",
+      "category": "Snack dolce",
+      "ingredients": [
+        {
+          "food": "greco",
+          "g": 190
+        },
+        {
+          "food": "fragole",
+          "g": 130
+        },
+        {
+          "food": "miele",
+          "g": 14
+        },
+        {
+          "food": "noci",
+          "g": 16
+        }
+      ],
+      "instructions": "Mescola yogurt, fragole a pezzetti e miele, poi aggiungi le noci.",
+      "note": "Yogurt greco rigorosamente 0% per questi valori.",
+      "nutrition": {
+        "kcal": 315,
+        "p": 22.4,
+        "c": 31.3,
+        "f": 11.2
+      }
+    },
+    {
+      "id": "sn02",
+      "name": "Mug cake banana, cacao e cioccolato",
+      "day": "TUTTI",
+      "category": "Snack dolce",
+      "ingredients": [
+        {
+          "food": "avena",
+          "g": 28
+        },
+        {
+          "food": "albumi",
+          "g": 120
+        },
+        {
+          "food": "banana",
+          "g": 85
+        },
+        {
+          "food": "cacao",
+          "g": 9
+        },
+        {
+          "food": "cioccolato",
+          "g": 9
+        }
+      ],
+      "instructions": "Schiaccia la banana con albume, avena e cacao. Cuoci in tazza fino a cottura completa, aggiungi il cioccolato.",
+      "note": "Controlla la cottura dell’albume.",
+      "nutrition": {
+        "kcal": 326,
+        "p": 20.2,
+        "c": 45,
+        "f": 7.2
+      }
+    },
+    {
+      "id": "sn03",
+      "name": "Tiramisù rapido allo skyr e caffè",
+      "day": "TUTTI",
+      "category": "Snack dolce",
+      "ingredients": [
+        {
+          "food": "skyr",
+          "g": 200
+        },
+        {
+          "food": "fette",
+          "g": 35
+        },
+        {
+          "food": "cacao",
+          "g": 8
+        }
+      ],
+      "instructions": "Bagna le fette biscottate in caffè americano freddo non zuccherato; alterna con skyr e cacao.",
+      "note": "Il caffè non aggiunge calorie rilevanti.",
+      "nutrition": {
+        "kcal": 277,
+        "p": 27.5,
+        "c": 34.1,
+        "f": 3.4
+      }
+    },
+    {
+      "id": "sn04",
+      "name": "Budino skyr, chia, cacao e mirtilli",
+      "day": "TUTTI",
+      "category": "Snack dolce",
+      "ingredients": [
+        {
+          "food": "skyr",
+          "g": 190
+        },
+        {
+          "food": "chia",
+          "g": 18
+        },
+        {
+          "food": "cacao",
+          "g": 7
+        },
+        {
+          "food": "mirtilli",
+          "g": 105
+        }
+      ],
+      "instructions": "Mescola skyr, semi di chia e cacao, lascia in frigorifero almeno due ore; aggiungi i mirtilli.",
+      "note": "I semi di chia restano crudi e idratati.",
+      "nutrition": {
+        "kcal": 269,
+        "p": 26,
+        "c": 25.6,
+        "f": 7
+      }
+    },
+    {
+      "id": "sn05",
+      "name": "Coppa ricotta, pera e miele",
+      "day": "TUTTI",
+      "category": "Snack dolce",
+      "ingredients": [
+        {
+          "food": "ricotta",
+          "g": 85
+        },
+        {
+          "food": "skyr",
+          "g": 130
+        },
+        {
+          "food": "pera",
+          "g": 145
+        },
+        {
+          "food": "miele",
+          "g": 8
+        }
+      ],
+      "instructions": "Lavora ricotta e skyr a crema, incorpora pera a cubetti e miele.",
+      "note": "Ricotta standard: verifica la marca.",
+      "nutrition": {
+        "kcal": 332,
+        "p": 24.3,
+        "c": 36.9,
+        "f": 9.8
+      }
+    },
+    {
+      "id": "sn06",
+      "name": "Gelato espresso banana e yogurt",
+      "day": "TUTTI",
+      "category": "Snack dolce",
+      "ingredients": [
+        {
+          "food": "banana",
+          "g": 130
+        },
+        {
+          "food": "greco",
+          "g": 200
+        },
+        {
+          "food": "arachidi",
+          "g": 12
+        }
+      ],
+      "instructions": "Congela la banana a rondelle; frulla con yogurt e crema di arachidi. Servi subito.",
+      "note": "Usa banana pesata senza buccia.",
+      "nutrition": {
+        "kcal": 319,
+        "p": 24.6,
+        "c": 40,
+        "f": 6.8
+      }
+    },
+    {
+      "id": "sn07",
+      "name": "Smoothie proteico al cacao e mirtilli",
+      "day": "TUTTI",
+      "category": "Snack dolce",
+      "ingredients": [
+        {
+          "food": "latte",
+          "g": 220
+        },
+        {
+          "food": "whey",
+          "g": 22
+        },
+        {
+          "food": "mirtilli",
+          "g": 120
+        },
+        {
+          "food": "cacao",
+          "g": 6
+        }
+      ],
+      "instructions": "Frulla latte, proteine in polvere, mirtilli e cacao; servi freddo.",
+      "note": "Proteine whey generiche: sostituisci in Cronometer con il prodotto effettivo.",
+      "nutrition": {
+        "kcal": 286,
+        "p": 27.3,
+        "c": 30.9,
+        "f": 5.9
+      }
+    },
+    {
+      "id": "ce01",
+      "name": "Orata con patate al forno e broccoli",
+      "day": "TUTTI",
+      "category": "Cena",
+      "ingredients": [
+        {
+          "food": "orata",
+          "g": 190
+        },
+        {
+          "food": "patate",
+          "g": 350
+        },
+        {
+          "food": "broccoli",
+          "g": 260
+        },
+        {
+          "food": "pane",
+          "g": 35
+        },
+        {
+          "food": "evo",
+          "g": 17
+        }
+      ],
+      "instructions": "Cuoci orata, patate e broccoli, condisci con olio a crudo, accompagna con pane.",
+      "note": "Cena base per entrambi i giorni.",
+      "nutrition": {
+        "kcal": 821,
+        "p": 55.4,
+        "c": 92.8,
+        "f": 25.3
+      }
+    },
+    {
+      "id": "ce02",
+      "name": "Pollo, riso basmati e broccoli",
+      "day": "TUTTI",
+      "category": "Cena",
+      "ingredients": [
+        {
+          "food": "pollo",
+          "g": 165
+        },
+        {
+          "food": "riso",
+          "g": 110
+        },
+        {
+          "food": "broccoli",
+          "g": 240
+        },
+        {
+          "food": "evo",
+          "g": 20
+        }
+      ],
+      "instructions": "Prepara il riso, griglia il pollo e cuoci i broccoli. Condisci con l’olio misurato.",
+      "note": "Riso e pollo pesati a crudo.",
+      "nutrition": {
+        "kcal": 843,
+        "p": 52.9,
+        "c": 102.6,
+        "f": 24.6
+      }
+    },
+    {
+      "id": "ce03",
+      "name": "Pasta integrale tacchino e zucchine",
+      "day": "TUTTI",
+      "category": "Cena",
+      "ingredients": [
+        {
+          "food": "pasta",
+          "g": 115
+        },
+        {
+          "food": "tacchino",
+          "g": 165
+        },
+        {
+          "food": "zucchine",
+          "g": 250
+        },
+        {
+          "food": "parmi",
+          "g": 18
+        },
+        {
+          "food": "evo",
+          "g": 16
+        }
+      ],
+      "instructions": "Cuoci la pasta, salta tacchino e zucchine, unisci parmigiano e olio a fine cottura.",
+      "note": "Quantità di pasta a secco.",
+      "nutrition": {
+        "kcal": 832,
+        "p": 62.2,
+        "c": 86.7,
+        "f": 26.3
+      }
+    },
+    {
+      "id": "ce04",
+      "name": "Salmone con quinoa, verdure e mela",
+      "day": "TUTTI",
+      "category": "Cena",
+      "ingredients": [
+        {
+          "food": "salmone",
+          "g": 170
+        },
+        {
+          "food": "quinoa",
+          "g": 88
+        },
+        {
+          "food": "peperoni",
+          "g": 150
+        },
+        {
+          "food": "spinaci",
+          "g": 100
+        },
+        {
+          "food": "mela",
+          "g": 130
+        },
+        {
+          "food": "evo",
+          "g": 9
+        }
+      ],
+      "instructions": "Cuoci il salmone e la quinoa, arrostisci peperoni e spinaci. Completa con mela come dessert.",
+      "note": "Quinoa secca, salmone crudo, mela inclusa.",
+      "nutrition": {
+        "kcal": 889,
+        "p": 51.1,
+        "c": 86.9,
+        "f": 37.5
+      }
+    },
+    {
+      "id": "ce05",
+      "name": "Bowl di tofu, ceci, riso e spinaci",
+      "day": "TUTTI",
+      "category": "Cena",
+      "ingredients": [
+        {
+          "food": "tofu",
+          "g": 210
+        },
+        {
+          "food": "riso",
+          "g": 85
+        },
+        {
+          "food": "ceci",
+          "g": 120
+        },
+        {
+          "food": "spinaci",
+          "g": 200
+        },
+        {
+          "food": "evo",
+          "g": 12
+        }
+      ],
+      "instructions": "Rosola il tofu, cuoci il riso e scalda ceci e spinaci. Assembla e condisci con olio.",
+      "note": "Alternativa vegetale, porzione unica.",
+      "nutrition": {
+        "kcal": 898,
+        "p": 48.1,
+        "c": 110.6,
+        "f": 29.3
+      }
+    }
+  ]
+}
